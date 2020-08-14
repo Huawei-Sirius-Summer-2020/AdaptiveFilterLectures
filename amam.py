@@ -3,9 +3,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-x = np.load('data/gsm_4c_in.npy')
-y = np.load('data/gsm_4c_out.npy')
-
+x = np.load('data/lte_2c_data1_in.npy')
+y = np.load('data/lte_2c_data1_out.npy')
 #AM - AM
 plt.figure()
 plt.scatter(np.abs(x), np.abs(y), s = 0.1)
